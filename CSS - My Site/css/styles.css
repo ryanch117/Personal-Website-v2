@@ -1,0 +1,191 @@
+/******************************General Selectors*******************************/
+body{
+    font-family: 'Courier New', Courier, monospace;  /*fonts.google.com*/
+    background: rgb(17,29,94);
+    background: linear-gradient(25deg, rgba(23,5,84,1) 0%, rgba(18,0,153,1) 50%, rgba(23,5,84,1) 100%);
+    margin: 0;
+    text-align: center;
+}
+div{
+    /* padding: 1%; */
+    /* width: fit-content; */
+}
+h1{
+    font-size: 375%; /*100% font size is equal to 16px on medium text --> so do (desired font size) px / (16) px * (100) to get percentage equivalent*/
+    /* Another thing you can use is em, where 1 em = 16 px. */
+    /* em and % are inherited from body. You can use rem (root em) to avoid inheritance */
+    background: linear-gradient(90deg, rgba(255,226,0,1) 4%, rgba(232,66,181,1) 14%, rgba(255,136,0,1) 27%, rgba(255,226,0,1) 40%, 
+    rgba(232,66,181,1) 52%, rgba(255,136,0,1) 63%, rgba(255,226,0,1) 74%, rgba(232,66,181,1) 84%, rgba(255,136,0,1) 94%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+h2{
+    font-size: 300%;
+    background: linear-gradient(90deg, rgba(255,226,0,1) 4%, rgba(232,66,181,1) 14%, rgba(255,136,0,1) 27%, rgba(255,226,0,1) 40%, 
+    rgba(232,66,181,1) 52%, rgba(255,136,0,1) 63%, rgba(255,226,0,1) 74%, rgba(232,66,181,1) 84%, rgba(255,136,0,1) 94%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 10px;
+}
+h3{
+    font-size: 225%;
+    background: linear-gradient(90deg, rgba(255,226,0,1) 4%, rgba(232,66,181,1) 14%, rgba(255,136,0,1) 27%, rgba(255,226,0,1) 40%, 
+    rgba(232,66,181,1) 52%, rgba(255,136,0,1) 63%, rgba(255,226,0,1) 74%, rgba(232,66,181,1) 84%, rgba(255,136,0,1) 94%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 15px 0;
+}
+p{
+    font-size: 150%;
+    color: #F37121;
+    width: 100%;
+    font-weight: bold;
+    line-height: 2;
+}
+img{
+    max-width: 100%;
+    min-width: 250px;
+    height: auto;
+    border-radius: 5%;
+}
+a{
+    color: #C70039;
+    font-size: 125%;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+}
+a:hover{
+    color: #ff0048;
+}
+hr{
+    border: 10px dashed #C0E218;
+    border-style: none none dashed;
+    height: 5px;
+    width: 95px;
+    margin: 5% auto;
+    /* background-color: #010311; */
+
+}
+/******************************Class Selectors*******************************/
+.topper{
+    /* top: 0; */
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    background-color: #C70039;
+}
+.profile{
+    padding: 0 1%;
+}
+.profile-img{
+    margin: 2.5% auto;
+}
+.bio{
+    width: 50%;
+    margin: auto;
+}
+.skill-row{
+    padding: 0 1%;
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    text-align: left;
+}
+.div-top{
+    padding: 100px 1% 1% 1%;
+    /* display: flex; */
+    align-items: center;
+    overflow: hidden;
+    padding-left: 2%;
+}
+.skill-img1{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.skill-img2{
+    width: 25%;
+    height: auto;
+    float: right;
+    margin-left: 30px;
+}
+.skill-img3{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.getintouch{
+    margin-bottom: 50px;
+}
+.copyright{
+    margin-bottom: 0;
+    color: #C0E218;
+}
+.btn {
+    margin: 25px auto;
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    text-shadow: 1px 1px 3px #00f7ff;
+    -webkit-box-shadow: 0px 1px 3px #2c007d;
+    -moz-box-shadow: 0px 1px 3px #2c007d;
+    box-shadow: 0px 1px 3px #2c007d;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 20px;
+    background: #03082c;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #111D5E;
+    text-decoration: none;
+    color: #ffffff;
+  }
+/* .bottom-container{
+    background-color: #C0E218;
+ } */
+/* .skill-desc1{
+    clear: left;
+}
+.skill-desc2{
+    clear: right;
+}
+.middle-container{
+   color: transparent;
+} */
+
+
+/******************************ID Selectors*******************************/
+
+/******************************Scroll Bar*******************************/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #060a20;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #273061;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #394064;
+  }
+
+/* https://colorhunt.co/palette/2121213232320d737714ffec 
+   https://colorhunt.co/palette/0000005800ffe900ffffc600 
+   https://colorhunt.co/palette/111d5ec70039f37121c0e218 <- currently using
+   
+   */
